@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 414px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header {
+    background-color:  #F0A83E;
+}
+
+img {
+    max-width: 480px;
+}
+
+
+
+#baner {
+    display: flex;
+    height: 440px;
+    width: 414px;
+    align-items: center;
+    text-align: center;
+    background-image: url('../img/plato.png');
+    background-size: cover;
+    height: 409px;
+    justify-content: space space-around;
+}
+
+.info {
+    margin: 30px;
+
+}
+
+.info_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.info_title,
+.info_subtitle {
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.info_button {
+    border-radius: 5px;
+    background-color: #F0A83E;
+    color: white;
+    width: 141px;
+    height: 49px;
+    
+}
+
+.links li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+    padding: 20px;
+}
+
+.datos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+}
+
+.datos div {
+    align-items: center;
+    display: flex;
+    background-color: #3C2313;
+    border-radius: 15px;
+    height: 40px;
+    width: 340px;
+}
+
+.datos p {
+    color: white;
+    font-size: 9px;
+    font-weight: 400;
+    padding: 0px;
+    text-indent: 14.11px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.botones div {
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    height: 34px;
+    justify-content: center;
+    width: 110px;
+}
+
+.botones span {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.reset {
+    background-color: #8a8787;
+    margin-right: 6px;
+}
+
+.env {
+    background-color: #f0a83e;
+}
