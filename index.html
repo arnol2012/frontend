@@ -4,80 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../clase15/css/style.css">
-    <title>Petshop</title>
+    <link rel="stylesheet" href="../clase16a/css/styles.css">
+    <title>Ecommerce2</title>
 </head>
 <body>
     <header>
-        <img src="img/Logo.png" alt="">
+        <p>20% de descuento en todos los productos</p>
     </header>
-    <div id="baner">
-        <div class="info">
-            <p class="info_title">¡Es un placer tenerte aquí!</p>
-            <p class="info_subtitle">¡Comedores en descuento</p>
-            <br>
-            <br>
-            <br>
-
-            <button class="info_button">COMEDEROS</button>
-        </div>
-    </div> 
-    <div class="title">
-        <img src="img/huella.png" alt="" class="huella">
-        <div><h2>Productos Destacadaos</h2></div> 
-            <nav>
-                <ul class="links">
-                    <li><a href="#">comederos</a></li>
-                    <li><a href="#">accesorios</a></li>
-                    <li><a href="#">comida</a></li>   
-                </ul> 
-            </nav>
-        </div>        
+    <div>
+        <h1 class="ecommerce"><img src="img/logop.png" alt="#">Ecomerce</h1>
     </div>
-    <main>
-        <div class="churras">
-            <img src="img/churrasquito.png" alt="">
-            <h3>juguete churrasquito</h3>
-            <h5>$150</h5>
-        </div>
-        <div class="comedero">
-            <img src="img/comedero.png" alt="">
-            <h3>comedero para perro</h3>
-            <h5>$250</h5>
-        </div>
-        <div class="huesito">
-            <img src="img/Huesito.png" alt="">
-            <h3>juguete Huesito</h3>
-            <h5>$650</h5>
-        </div>
+    <main class="main">
+        <form action="#" method="post">
+            <h2>Registro</h2>
+            <label for="text"></label>
+            <input type="text" name="text" id="text" placeholder="Nombre y Apellido">
+            <br>
+            <br>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Correo Electronico">
+            <br />
+            <br />
+            <label for="password"></label>
+            <input type="password" name="password" id="password" placeholder="contraseña">
+            <br />
+            <br />
+            <select name="país" class="pais">
+                <option value="#">país</option>
+            </select>
+            <br />
+            <br />
+            <button type="reset" class="reset">Resetear</button>
+            <button type="submit" class="registro">Regístrar</button>
+            <br />
+            <br />
+            <a href="#">¿Ya tenés una cuenta?Ingresá</a>
+        </form>
     </main>
-    <!--sección formularios-->
-    <section class="formulario">
-        <h1>Contáctos</h1>
-        <div class="datos">
-            <div>
-                <p>Nombre y apellido</p>
-            </div>
-            <div>
-                <p>Ingresa tu correo electronico</p>
-            </div>
-            <div>
-                <p>teléfono</p>
-            </div>
-        </div> 
-        <div class="botones">
-            <div class="reset">
-                <span>resetear</span>
-            </div>
-            <div class="env">
-                <span>Enviar</span>
-            </div>
-        </div>   
-    </section>
-    
-    
-    <form>
-
-    </form>
+    <footer>Todos los derechos reservados a FRONT END 1</footer>
 </body>
 </html>
